@@ -1,0 +1,107 @@
+:root {
+    --bg-color: #eaeaea;
+    --bg-color-receita: #ffffff;
+    --title-color: #1b1b1b;
+    --footer-color: #8f8f8f;
+    --text: #39393a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: var(--title-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Roboto";
+}
+
+header,
+main {
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+    background-color: var(--bg-color-receita);
+    color: var(--text);
+}
+
+header {
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+header h1 {
+    font-size: 28px;
+    margin: 20px 0 30px;
+    text-transform: uppercase;
+}
+header figure {
+}
+header figure img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+header figure figcaption {
+    font-size: 12px;
+    text-align: right;
+    color: var(--footer-color);
+}
+
+main {
+    padding: 0 30px;
+    border-radius: 0 0 15px 15px;
+}
+main section {
+    margin: 0 auto;
+}
+main section h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+main section ul,
+main section ol {
+}
+
+main section ul li,
+main section ol li {
+    font-size: 16px;
+    line-height: 50px;
+    list-style-position: inside;
+}
+
+main aside {
+}
+main aside h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+main aside p {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin: 50px auto 10px;
+}
+
+footer span {
+    font-size: 12px;
+    color: var(--footer-color);
+}
+footer span a {
+}
