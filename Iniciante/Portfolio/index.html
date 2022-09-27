@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <title>Meu Portifólio</title>
-        <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + React + TS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -12,28 +13,7 @@
         />
     </head>
     <body>
-        <div class="esquerda">
-            <div class="usuario">
-                <figure>
-                    <img src="" alt="" />
-                </figure>
-                <h1>Luiz Eduardo</h1>
-                <h2>Studying Web Development</h2>
-            </div>
-            <div class="info">
-                <ul>
-                    <li id="local"></li>
-                    <li id="email">luizedumartins21@gmail.com</li>
-                </ul>
-            </div>
-            <div class="tech"></div>
-            <div class="experiencias"></div>
-            <div class="educacao"></div>
-        </div>
-        <div class="direita">
-            <div class="repos"></div>
-            <div class="posts"></div>
-        </div>
-        <script src="resources/javascript/script.js"></script>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
     </body>
 </html>

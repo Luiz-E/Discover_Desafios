@@ -1,0 +1,35 @@
+:root {
+    --body-bg-color: #22212c;
+    --text-color: #837e9f;
+    --bg-cards: #302f3d;
+    --bg-techs: #cb92b1;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: "Merriweather Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/*the scrollbar. */
+::-webkit-scrollbar {
+    width: 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+}
+/*the buttons on the scrollbar (arrows pointing upwards and downwards).*/
+::-webkit-scrollbar-button {
+    display: none;
+}
+/*the draggable scrolling handle.*/
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-cards);
+    border: 3px solid var(--bg-techs);
+    border-radius: 10px;
+}
